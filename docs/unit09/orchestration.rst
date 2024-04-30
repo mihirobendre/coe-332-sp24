@@ -84,14 +84,14 @@ Nomad
 
 Nomad by HasiCorp is an orchestration system that can handle both containerized and non-containerized
 workloads. Nomad has been gaining popularity recently as an alternative to Kubernetes. Compared with 
-Kubernete, Nomad offers a significantly simpler usage model but requires more work by the user to 
+Kubernetes, Nomad offers a significantly simpler usage model but requires more work by the user to 
 achieve some functionalities available in Kubernetes.
 
 Kubernetes
 ~~~~~~~~~~
 
 Kubernetes (often abbreviated as "k8s") is a container orchestration system supporting Docker as well other container
-runtimes that conform to the Container Runtime Interface (CRI) such as containerd and cri-o. While Kubernetes focuses
+runtimes that conform to the Container Runtime Interface (CRI) such as `containerd` and `cri-o`. While Kubernetes focuses
 entirely on containerized applications (unlike Mesos) and is not as similar to Docker Compose as Docker Swarm is,
 it provides a number of powerful features for modern, distributed systems management. Additionally, Kubernetes is
 available as a service on a large number of commercial cloud providers, including Amazon, Digital Ocean, Google, IBM,
